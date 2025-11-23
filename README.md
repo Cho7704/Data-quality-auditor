@@ -1,5 +1,4 @@
 # Data-quality-auditor
-#  Data Quality Auditor
 
 *A lightweight, modular Python tool for auditing data integrity using Pandas*
 
