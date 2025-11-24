@@ -18,5 +18,26 @@ The project is built with clarity and maintainability in mind, following a clean
 It is ideal for ETL validations, exploratory data analysis, or automated quality reporting.
 
 ---
+##  Features (Tiles)
 
+###  Missing Value Detection
 
+Automatically identifies missing values per column and generates a summary report.
+
+###  Outlier Detection
+
+Uses z-score logic to locate abnormal numerical values.
+
+###  Duplicate Detection
+
+Flags duplicate rows and optionally outputs them for review.
+
+### Column Profiling
+
+Provides column-by-column statistics such as:
+
+* Min / Max
+* Mean / Median
+* Unique counts
+* Standard deviation
+* Data types
