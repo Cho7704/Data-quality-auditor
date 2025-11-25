@@ -41,3 +41,30 @@ Provides column-by-column statistics such as:
 * Unique counts
 * Standard deviation
 * Data types
+
+###  Clean Project Architecture
+
+Structured into reusable modules:
+
+```
+src/
+ ├── main.py
+ ├── auditor.py
+ ├── loader.py
+ ├── report.py
+data/
+output/
+requirements.txt
+README.md
+```
+
+###  Exportable Reports
+
+Generates structured reports (JSON + CSV) including:
+
+* Missing value summaries
+* Outlier lists
+* Duplicate listings
+* Column profiling
+
+---
